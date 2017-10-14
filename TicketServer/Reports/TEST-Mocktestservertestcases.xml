@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+<testsuite name="Mock test server test cases " errors="0" tests="5" failures="5" time="10.252" timestamp="2017-03-12T12:09:08">
+  <testcase classname="Mock test server test cases " name="should setup the database table" time="6.101"><failure type="expect" message="timeout: timed out after 5000 msec waiting for spec to complete">timeout: timed out after 5000 msec waiting for spec to complete</failure></testcase>
+  <testcase classname="Mock test server test cases " name="should create ticket" time="1.076"><failure type="expect" message="Error: TypeError: Cannot read property &amp;apos;statusCode&amp;apos; of undefined">Error: TypeError: Cannot read property &amp;apos;statusCode&amp;apos; of undefined
+    at Request._callback (E:\MRND\javascript\mock-test\spec\tests\TicketServerSpec.js:44:31)
+    at self.callback (E:\MRND\javascript\mock-test\spec\tests\node_modules\request\request.js:188:22)
+    at emitOne (events.js:96:13)
+    at Request.emit (events.js:188:7)
+    at Request.onRequestError (E:\MRND\javascript\mock-test\spec\tests\node_modules\request\request.js:884:8)
+    at emitOne (events.js:96:13)
+    at ClientRequest.emit (events.js:188:7)
+    at Socket.socketErrorListener (_http_client.js:309:9)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)</failure></testcase>
+  <testcase classname="Mock test server test cases " name="should get all the set of tickets " time="1.027"><failure type="expect" message="Error: TypeError: Cannot read property &amp;apos;statusCode&amp;apos; of undefined">Error: TypeError: Cannot read property &amp;apos;statusCode&amp;apos; of undefined
+    at Request._callback (E:\MRND\javascript\mock-test\spec\tests\TicketServerSpec.js:64:31)
+    at self.callback (E:\MRND\javascript\mock-test\spec\tests\node_modules\request\request.js:188:22)
+    at emitOne (events.js:96:13)
+    at Request.emit (events.js:188:7)
+    at Request.onRequestError (E:\MRND\javascript\mock-test\spec\tests\node_modules\request\request.js:884:8)
+    at emitOne (events.js:96:13)
+    at ClientRequest.emit (events.js:188:7)
+    at Socket.socketErrorListener (_http_client.js:309:9)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)</failure></testcase>
+  <testcase classname="Mock test server test cases " name="should get all the set of tickets with full data " time="1.02"><failure type="expect" message="Error: TypeError: Cannot read property &amp;apos;statusCode&amp;apos; of undefined">Error: TypeError: Cannot read property &amp;apos;statusCode&amp;apos; of undefined
+    at Request._callback (E:\MRND\javascript\mock-test\spec\tests\TicketServerSpec.js:84:31)
+    at self.callback (E:\MRND\javascript\mock-test\spec\tests\node_modules\request\request.js:188:22)
+    at emitOne (events.js:96:13)
+    at Request.emit (events.js:188:7)
+    at Request.onRequestError (E:\MRND\javascript\mock-test\spec\tests\node_modules\request\request.js:884:8)
+    at emitOne (events.js:96:13)
+    at ClientRequest.emit (events.js:188:7)
+    at Socket.socketErrorListener (_http_client.js:309:9)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)</failure></testcase>
+  <testcase classname="Mock test server test cases " name="should retrieve ticket 1" time="1.024"><failure type="expect" message="Error: TypeError: Cannot read property &amp;apos;statusCode&amp;apos; of undefined">Error: TypeError: Cannot read property &amp;apos;statusCode&amp;apos; of undefined
+    at Request._callback (E:\MRND\javascript\mock-test\spec\tests\TicketServerSpec.js:102:31)
+    at self.callback (E:\MRND\javascript\mock-test\spec\tests\node_modules\request\request.js:188:22)
+    at emitOne (events.js:96:13)
+    at Request.emit (events.js:188:7)
+    at Request.onRequestError (E:\MRND\javascript\mock-test\spec\tests\node_modules\request\request.js:884:8)
+    at emitOne (events.js:96:13)
+    at ClientRequest.emit (events.js:188:7)
+    at Socket.socketErrorListener (_http_client.js:309:9)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)</failure></testcase>
+</testsuite>
+</testsuites>
