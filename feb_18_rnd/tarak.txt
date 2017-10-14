@@ -1,0 +1,7 @@
+tarak,tarak123,[pizzas,cakes,burgers,],200
+eswar,eswar123,[cakes,burgers,pizzas,],200
+tarak,tarak123,[chocolates,cakes,],60
+ajay,ajay123,[chocolates,cakes,pizzas,],120
+subhash,subhash,[burgers,chocolates,],120
+subhash,subhash,[cakes,pizzas,],100
+subhash,subhash,[]
